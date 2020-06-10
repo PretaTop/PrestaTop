@@ -55,9 +55,13 @@ ul{
     padding :0;
 }
 
+a {
+    color: #36D79D;
+    text-decoration: none;
+}
+
 #button {
     padding: 0; 
-    
 }
 
 #button li {
