@@ -11,3 +11,9 @@ $('#btn-agregar').click(function(){
 });
 
 
+  function redireccionar() {
+    setTimeout("href='iniciar_sesion.html'", 5000);
+  }
+
+
+
