@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Grupal 12</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script>
+</head>
+<body>
+    
+    <form class="cmxform" id="commentForm" method="get" action="">
+          <section>
+            <p>
+              <label for="producto">Producto</label>
+              <input id="producto" name="producto" type="text" >
+            </p>
+          </section>
+          <section>
+                <div id="hastaCuando">
+                  <p>¿Hasta cuando?</p>
+                  <p>
+                    <label for="date" class="formlabel">Fecha Prestamo</label>
+                    <input type="date" id="date" name="dob"  value="date" min="2020-06-10">
+                  </p>
+                </div>
+                <div>
+                  <input type="checkbox" id="alerta" name="alerta" value="0">
+                  <label for="alerta">&#128276;</label><br>
+                </div>
+            </section>
+             <section>
+              <p>
+                <p>¿A quién voy a prestar?</p>
+              </p>
+              <p>
+                <label for="nombre">Nombre (requerido)</label>
+                <input id="nombre" type="text" name="nombre" >
+              </p>
+              <p>
+                <label for="telefono">Teléfono (requerido)</label>
+                <input id="telefono" type="text" name="telefono" >
+              </p>
+              <p>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" >
+              </p>
+              <section>
+                <p>
+                  <input class="submit" type="submit" value="Guardar">
+                </p>
+              </section>
+              <section>
+                <div>
+                    <img src="#" alt="Foto 1"><p> Foto 1 </p>
+                </div>
+                <div>
+                  <img src="#" alt="Foto 1"> Foto 2
+                </div>
+                <div>
+                  <img src="#" alt="Foto 1"> Foto 3
+                </div>
+          
+              </section>
+      </form>
+   
+
+</body>
+<script type="text/javascript" src="validaformulario.js" ></script>
+</html>
