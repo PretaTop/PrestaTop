@@ -1,6 +1,6 @@
 $('#btn-sesion').click(function(){
     window.open("ingresar.html", '_self');
-    return false
+    return false;
 });
 
 $('#btn-ingresar').click(function(){
