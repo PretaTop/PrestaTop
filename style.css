@@ -1,12 +1,12 @@
-*{
+* {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
-    background: rgb(17,39,86);
+    background: rgb(17, 39, 86);
     background: linear-gradient(0deg, #112756 0%, #0A0D27 100%);
     background-attachment: fixed;
-    color:white;
+    color: white;
 }
 
 #logo {
@@ -18,7 +18,7 @@ body {
 
 #logo img {
     width: 200px;
-  }
+}
 
 .iconos {
     width: 80px;
@@ -48,11 +48,11 @@ body {
 }
 
 li {
-    list-style:none;
+    list-style: none;
 }
 
-ul{
-    padding :0;
+ul {
+    padding: 0;
 }
 
 a {
@@ -60,45 +60,62 @@ a {
     text-decoration: none;
 }
 
-#button {
-    padding: 0; 
+/*MENU*/
+
+.menu {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background: linear-gradient(101.59deg, #6D3AB0 -22.59%, #36D79D 99.29%);
+    
 }
 
-#button li {
-    display: inline;
+.menu a {
+    color: #ffff;
+    line-height: 3;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.15em;
+    display: block;
+    padding-left: 1em;
+    font-size: 15px;
 }
 
-#button li a {
-    font-family: Arial;
-    font-size: 11px;
-    text-decoration: none;
-    float: left;
-    padding: 10px;
-    background-color: #2175bc;
-    color: #fff;
+.menu a:hover {
+    background-color: rgba(13, 19, 71, 0.5);
 }
 
-.articulo{
+.menu li {
+    flex: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu a:last-child {
+    border-bottom: none;
+}
+
+
+.articulo {
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
 }
 
-.marcoFoto{
+.marcoFoto {
     padding-right: 10px;
 }
 
-.fotoprestamos{
+.fotoprestamos {
     padding: 1px;
     float: left;
     width: 100px;
     height: 80px;
 }
 
-.textoarticulo{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+.textoarticulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 
@@ -109,18 +126,37 @@ a {
 
 
 /* Tablet 768x377*/
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) {
     #logo img {
-      width: 100px;
+        width: 100px;
     }
+
+    .menu {
+        display: flex;
+        text-align: center;
+    }
+    .menu a {
+        padding-left: 0;
+    }
+    .menu li {
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+  
 }
 
 
 /* Monitor 768x377*/
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 1366px) {
     #logo img {
-      width: 100px;
+        width: 100px;
     }
 }
 
-
+#toggle-menu{
+    background: rgba(13, 19, 71, 0.5);
+    line-height: 2;
+    color: #ffff;
+    padding-left: 1em;
+    font-size: .9em;
+}
