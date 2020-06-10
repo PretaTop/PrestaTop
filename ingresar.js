@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('#table-misprestamos').DataTable();
+});
+
 $('#btn-sesion').click(function(){
     window.open("ingresar.html", '_self');
     return false;
