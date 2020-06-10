@@ -1,3 +1,7 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 body {
     background: rgb(17,39,86);
     background: linear-gradient(0deg, #112756 0%, #0A0D27 100%);
@@ -40,6 +44,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     border: 0px solid;
+    font-family: 'Rubik', sans-serif;
 }
 
 li {
