@@ -1,3 +1,12 @@
+/*MENU */
+$(document).ready(main);
+function main(){
+	$('.menu_bar').click(function(){
+		$('nav').toggle(); 
+	});
+ 
+};
+
 $(document).ready(function(){
   $('#table-misprestamos').DataTable();
 });
@@ -22,16 +31,6 @@ function redireccionar() {
   setTimeout("href='iniciar_sesion.html'", 5000);
 }
 
-/*MENU */
-$(document).ready(main);
- 
-var contador = 1;
- 
-function main(){
-	$('.menu_bar').click(function(){
-		$('nav').toggle(); 
-	});
- 
-};
+
 
   
