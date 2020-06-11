@@ -172,6 +172,33 @@ header nav{
     padding: 10px;
 }
 
+.titulo {
+    border: 1px solid white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.tit-1 {
+    justify-content: center;
+    align-items: center;
+    /*
+    padding: 30px;
+    border: 1px solid white;
+    background-color: red;
+    width: 80%;
+    font-size: 24px;
+    text-align: center;
+    text*/
+}
+
+.tit-2 {
+    padding: 15px;
+    border: 1px solid white;
+    background-color: green;  
+}
 
 .contenedor-monitor {
     display: none;
