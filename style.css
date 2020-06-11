@@ -22,10 +22,6 @@ body {
     width: 200px;
 }
 
-.iconos {
-    width: 30px;
-}
-
 
 .seccionIngreso {
     display: flex;
@@ -179,9 +175,38 @@ h3 {
     padding: 10px;
 }
 
+.titulo {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.titulo h3 {
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+}
+
+.titulo a {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.iconos {
+    width: 30px;
+    height: 30px;
+}
+
 
 .contenedor-monitor {
     display: none;
+    margin: 50px;
+
 }
 
 /*INICIAR SESION*/
