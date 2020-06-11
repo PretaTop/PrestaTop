@@ -157,6 +157,10 @@ header nav{
     padding-right: 10px;
 }
 
+.marcoFotoP {
+    border: 1px solid red;;
+}
+
 .fotoprestamos {
     padding: 1px;
     float  : left;
@@ -169,6 +173,12 @@ header nav{
     font-size: 12px;
 }
 
+.fotos{
+    width: 100px;
+    height: 70px;
+    float: left;
+    padding: 10px;
+}
 
 .contenedor-monitor {
     display: none;
