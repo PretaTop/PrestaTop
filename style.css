@@ -183,6 +183,33 @@ header nav{
     align-items: center;
 }
 
+#imgbienvenida{
+    width: 200px;
+    align-items: left;
+}
+
+#vacio{
+    width: 100%;
+    height: 100px;
+}
+
+#parrafoBienvenida{
+    width: 300px;
+    text-align: center;
+}
+
+#tituloPrestaTop{
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;   
+}
+
+#tituloBienvenida{
+    font-size: 30px;
+}
+
+
+
 /* Tablet 768x377*/
 @media screen and (min-width: 768px) {
     #logo img {
