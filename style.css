@@ -204,6 +204,8 @@ h3 {
 
 .contenedor-monitor {
     display: none;
+    margin: 50px;
+
 }
 
 /*INICIAR SESION*/
