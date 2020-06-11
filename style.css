@@ -147,6 +147,22 @@ header nav{
     font-size: 12px;
 }
 
+.titulo {
+    border: 1px solid white;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo h3 {
+    background-color: #0A0D27;
+    
+}
+
+.titulo a {
+    background-color: #0A0D27;
+    align-items: right;
+}
 
 .contenedor-monitor {
     display: none;
