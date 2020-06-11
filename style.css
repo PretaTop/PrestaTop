@@ -146,7 +146,7 @@ a {
 }
 
 
-/* Monitor 768x377*/
+/* Monitor 1366x377*/
 @media screen and (max-width: 1366px) {
     #logo img {
         width: 100px;
