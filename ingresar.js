@@ -26,15 +26,5 @@ $('#btn-agregar').click(function () {
   return false;
 });
 
-/*MENU */
-$(document).ready(main);
- 
-var contador = 1;
- 
-function main(){
-	$('.menu_bar').click(function(){
-		$('nav').toggle(); 
-	});
- 
-};
+
   
