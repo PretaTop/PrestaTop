@@ -25,6 +25,3 @@ $('#btn-agregar').click(function () {
   window.open("misprestamos.html", '_self');
   return false;
 });
-
-
-  
