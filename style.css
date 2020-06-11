@@ -7,6 +7,7 @@ body {
     background           : linear-gradient(0deg, #112756 0%, #0A0D27 100%);
     background-attachment: fixed;
     color                : white;
+    margin: 0%;
 }
 
 #logo {
@@ -93,7 +94,7 @@ a {
 
 .menu_bar .bt-menu {
     display:block;
-    padding:20px;
+    padding:15px;
     background: linear-gradient(101.59deg, #6D3AB0 -22.59%, #36D79D 99.29%);
     color:#fff;
     text-decoration:none;
@@ -124,7 +125,7 @@ header nav{
 
 .menu a {
     color: #ffff;
-    line-height: 3;
+    line-height: 2;
     font-family: 'Rubik', sans-serif;
     letter-spacing: 0.15em;
     display: block;
