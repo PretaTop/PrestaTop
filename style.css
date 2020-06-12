@@ -327,6 +327,15 @@ h3 {
     color: #f0f0f0;
   }
   
+.seccionFaq {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionQuienes {
+    margin: 10px;
+}
 
 /* Tablet 768x377*/
 @media screen and (min-width: 768px) {
@@ -359,6 +368,16 @@ h3 {
 
     .menu_bar .bt-menu {
         padding: 20px;
+    }
+
+    .seccionFaq {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .seccionQuienes {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
 }
