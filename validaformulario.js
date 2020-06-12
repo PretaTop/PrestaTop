@@ -1,3 +1,4 @@
+$(document).ready(function(){
 
  $("#commentForm").validate({
     rules: {
@@ -52,3 +53,4 @@
 });
 
   
+});
