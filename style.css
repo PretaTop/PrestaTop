@@ -255,7 +255,10 @@ h3 {
 }
 
 #bloque{
+<<<<<<< HEAD
     width: 80%;
+=======
+>>>>>>> b6b6c8c2314158f3795beb71280b97145b168c3a
     border-radius: 15px;
     border: solid 1px white;
     padding: 10px;
@@ -268,6 +271,9 @@ h3 {
     text-align: center;
 }
 
+.tablaproductos {
+    display: flex;
+}
 
 /*AGREGAR*/
 .contenedor-agregar {
@@ -336,6 +342,10 @@ h3 {
     margin: 10px;
 }
 
+.seccionPres1 {
+    display: flex;
+    flex-direction: column;
+}
 /* Tablet 768x377*/
 @media screen and (min-width: 768px) {
     #logo img {
