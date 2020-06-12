@@ -1,6 +1,7 @@
+$(document).ready(function(){
 
-//$("#commentForm").validate();
- $("#commentForm").validate({
+    //$("#commentForm").validate();
+    $("#commentForm").validate({
     rules: {
         producto: {
             required: true,
@@ -47,7 +48,7 @@
         },
         email: {
             email: "Ingrese email valido",
-
+            
             
 
         }
@@ -55,3 +56,4 @@
 })
 
   
+});
