@@ -255,6 +255,10 @@ h3 {
 }
 
 #bloque{
+<<<<<<< HEAD
+    width: 80%;
+=======
+>>>>>>> b6b6c8c2314158f3795beb71280b97145b168c3a
     border-radius: 15px;
     border: solid 1px white;
     padding: 10px;

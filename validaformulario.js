@@ -1,5 +1,4 @@
 
-//$("#commentForm").validate();
  $("#commentForm").validate({
     rules: {
         producto: {
@@ -48,10 +47,8 @@
         email: {
             email: "Ingrese email valido",
 
-            
-
         }
     }
-})
+});
 
   
