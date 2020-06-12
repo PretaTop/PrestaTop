@@ -165,7 +165,7 @@ h3 {
 
 .textoarticulo {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .fotos {
@@ -239,6 +239,34 @@ h3 {
 
 #tituloBienvenida{
     font-size: 30px;
+    
+}
+
+/*DETALLE PRODUCTO PRESTADO*/
+.mini_imagenes{
+    width: 80x;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.fotoprestamos{
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#bloque{
+    width: 300px;
+    border-radius: 15px;
+    border: solid 1px white;
+    padding: 10px;
+}
+
+.tituloPrestamos{
+    font-size: 30px;
+    color: #36D79D;
+    text-align: center;
+
+
 }
 
 
